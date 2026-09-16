@@ -58,25 +58,58 @@ echo view('home')->render();
 
 my-theme/
 ├── app/
-│   ├── Controllers/
-│   └── ...
+│   ├── setup.php
+│   ├── filters.php
+│   └── helpers.php
+│
+├── config/
+│   └── app.php
+│
 ├── resources/
 │   ├── views/
 │   │   ├── layouts/
 │   │   │   └── app.blade.php
-│   │   ├── components/
+│   │   │
 │   │   ├── partials/
-│   │   ├── home.blade.php
+│   │   │   ├── header.blade.php
+│   │   │   ├── footer.blade.php
+│   │   │   ├── navigation.blade.php
+│   │   │   └── sidebar.blade.php
+│   │   │
+│   │   ├── components/
+│   │   │   ├── button.blade.php
+│   │   │   ├── card.blade.php
+│   │   │   └── post-card.blade.php
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── home.blade.php
+│   │   │   ├── about.blade.php
+│   │   │   └── contact.blade.php
+│   │   │
 │   │   ├── single.blade.php
-│   │   └── page.blade.php
+│   │   ├── page.blade.php
+│   │   ├── archive.blade.php
+│   │   ├── search.blade.php
+│   │   └── 404.blade.php
+│   │
 │   ├── css/
+│   │   └── app.css
+│   │
 │   └── js/
+│       └── app.js
+│
 ├── public/
-├── vendor/
-├── composer.json
+│   ├── images/
+│   └── fonts/
+│
 ├── functions.php
 ├── index.php
-└── style.css
+├── style.css
+├── screenshot.png
+├── composer.json
+├── package.json
+└── theme.json
+
 
 
 ```
