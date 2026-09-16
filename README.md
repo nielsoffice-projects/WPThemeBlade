@@ -1,4 +1,4 @@
-# WPThemeBlade-
+# WPThemeBlade Development
 WPThemeBlade 
 
 
